@@ -1,5 +1,17 @@
-# Ignore the build folder
+# Ignore the build directory
 /build/
 
-# Ignore VS Code settings
+# Ignore the Python virtual environment
+/.venv/
+
+# Ignore executables and libraries
+*.exe
+*.dll
+*.a
+
+# Ignore temporary files created by the solver
+.__kociemba_in.txt
+.__kociemba_out.txt
+
+# Ignore VS Code specific files
 .vscode/
